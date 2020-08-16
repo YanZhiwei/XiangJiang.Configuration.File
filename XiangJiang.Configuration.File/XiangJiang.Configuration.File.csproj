@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>YanZhiwei</Authors>
+    <Company>YanZhiwei</Company>
+    <Product>XiangJiang</Product>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright YanZhiwei 2020</Copyright>
+    <Description>Local File Configuration Service,using the document: https://github.com/YanZhiwei/XiangJiang.Configuration.File/wiki; Welcome to pull request or star.</Description>
+    <PackageProjectUrl>https://github.com/YanZhiwei/XiangJiang.Configuration.File</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/YanZhiwei/XiangJiang.Configuration.File</RepositoryUrl>
+    <PackageIcon>nugetico.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="XiangJiang" Version="1.0.3" />
+    <PackageReference Include="XiangJiang.Configuration.Abstractions" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.assets\nugetico.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
