@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>YanZhiwei</Authors>
     <Company>YanZhiwei</Company>
@@ -12,11 +12,12 @@
     <PackageProjectUrl>https://github.com/YanZhiwei/XiangJiang.Configuration.File</PackageProjectUrl>
     <RepositoryUrl>https://github.com/YanZhiwei/XiangJiang.Configuration.File</RepositoryUrl>
     <PackageIcon>nugetico.png</PackageIcon>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="XiangJiang" Version="1.0.3" />
-    <PackageReference Include="XiangJiang.Configuration.Abstractions" Version="1.0.1" />
+    <PackageReference Include="XiangJiang" Version="1.0.9" />
+    <PackageReference Include="XiangJiang.Configuration.Abstractions" Version="2.0.0" />
   </ItemGroup>
 
   <ItemGroup>
